@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/pocinsperaem" mode="merge"/>
+    <filter root="/content/pocinsperaem" mode="merge"/>
+    <filter root="/content/dam/pocinsperaem" mode="merge">
+        <exclude pattern="/content/dam/pocinsperaem(/.*)?"/>
+        <include pattern="/content/dam/pocinsperaem/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/pocinsperaem/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/pocinsperaem" mode="merge"/>
+</workspaceFilter>
